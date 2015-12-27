@@ -47,10 +47,8 @@ The run_analysis.R performs the following steps:
     
     g.	Name the columns based on the "Features" data (Appropriately labels the data set with descriptive variable names (requirement #4))
 
-3.	Extract only the measurements on the mean and standard deviation for each measurement (requirement #2)
-
+3.	Extract only the measurements on the mean and standard deviation for each measurement (requirement #2
     a.	Subset the merged data frame to the columns representing mean and standard deviation
-    
     b.	To do this, search for all variable names containing the strings "Mean," "mean," and "std."
     
 
