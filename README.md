@@ -17,12 +17,13 @@ Files:
 3.  CodeBook.md describes the variables, the data, the transformations, and the work that is performed to clean up the data
 
 Assumptions:
+
 1.	The Samsung data is available in the working directory and/or the user is connected to the Internet. The script checks:
-a.	If an unzipped folder named "UCI HAR Dataset" with the directory structure underneath that left intact from the original zip file (e.g., there are subdirectories called "test" and "train" in "UCI HAR Dataset") is available. If so, the script continues.
-b.	If the "UCI HAR Dataset" folder is not available, the script checks whether the original zip file is available. If so, it is unzipped and the script continues.
-c.	If the original zip file is not available, the script downloads the file from the Internet, unzips it, and continues the script.
-2.	The user has either previously installed the plyr, dplyr, and reshape2 packages or is connected to the Internet so the script can install them.
-3.	"Extracts only the measurements on the mean and standard deviation" is assumed to mean all variables from the original data set with the strings "Mean," "mean," or "std" in their names.
+    a.	If an unzipped folder named "UCI HAR Dataset" with the directory structure underneath that left intact from the original zip file          (e.g., there are subdirectories called "test" and "train" in "UCI HAR Dataset") is available. If so, the script continues.
+    b.	If the "UCI HAR Dataset" folder is not available, the script checks whether the original zip file is available. If so, it is               unzipped and the script continues.
+    c.	If the original zip file is not available, the script downloads the file from the Internet, unzips it, and continues the script.
+2.	The user has either previously installed the plyr, dplyr, and reshape2 packages or is connected to the Internet so the script can          install them.
+3.	"Extracts only the measurements on the mean and standard deviation" is assumed to mean all variables from the original data set with       the strings "Mean," "mean," or "std" in their names.
 
 Process:
 The run_analysis.R performs the following steps:
