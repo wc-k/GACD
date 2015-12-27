@@ -12,12 +12,9 @@ You should create one R script called run_analysis.R that does the following.
 
 Files:
 
-README.md 
-1.  run_analysis.R (the R script that does the merging and transformations)
-
-2.  CodeBook.md (describes the variables, the data, the transformations, and the work that is performed to clean up the data)
-
-3.  Script (run_analysis.R)
+1.  README.md 
+2.  run_analysis.R that does the merging and transformations
+3.  CodeBook.md describes the variables, the data, the transformations, and the work that is performed to clean up the data
 
 Assumptions:
 1.	The Samsung data is available in the working directory and/or the user is connected to the Internet. The script checks:
