@@ -11,10 +11,11 @@ You should create one R script called run_analysis.R that does the following.
 5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Files:
-1.	README.md 
-2.	2.	run_analysis.R (the R script that does the merging and transformations)
-3.	3.	CodeBook.md (describes the variables, the data, the transformations, and the work that is performed to clean up the data)
-Script (run_analysis.R)
+
+README.md 
+1.  run_analysis.R (the R script that does the merging and transformations)
+2.  CodeBook.md (describes the variables, the data, the transformations, and the work that is performed to clean up the data)
+3.  Script (run_analysis.R)
 
 Assumptions:
 1.	The Samsung data is available in the working directory and/or the user is connected to the Internet. The script checks:
