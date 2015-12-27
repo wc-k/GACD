@@ -55,18 +55,11 @@ The run_analysis.R performs the following steps:
     
 
 4.	Create a second, independent tidy data set with the average of each variable for each activity and each subject (requirement #5)
-
     a.	Make all column names legal for R by removing all parentheses and dashes.
-    
     b.	Change variable names to Camel Case (i.e., capitalize "Mean" and "Std" regardless of where in the column name they appear) to              increase readability.
-    
     c.	Change the names of the misnamed variables in the original data set (i.e., change "BodyBody" to "Body").
-    
     d.	Change the "Subject" column to a factor for easier manipulation.
-    
     e.	Sort the merged data frame by "Subject" and "Activity"
-    
     f.	Calculate the average (mean) of each numeric column and return a data frame ("merged_summary" in the script) with the average for          each subject/activity combination.
-    
-   g.	As instructed, write this data frame to a text file called "samsung_summary.txt" using "row.names = FALSE."
+    g.	Write this data frame to a text file called "samsung_summary.txt" using "row.names = FALSE."
 
