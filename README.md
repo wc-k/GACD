@@ -55,6 +55,7 @@ The run_analysis.R performs the following steps:
     
 
 4.	Create a second, independent tidy data set with the average of each variable for each activity and each subject (requirement #5)
+
     a.	Make all column names legal for R by removing all parentheses and dashes.
     b.	Change variable names to Camel Case (i.e., capitalize "Mean" and "Std" regardless of where in the column name they appear) to              increase readability.
     c.	Change the names of the misnamed variables in the original data set (i.e., change "BodyBody" to "Body").
