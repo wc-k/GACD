@@ -14,7 +14,9 @@ Files:
 
 README.md 
 1.  run_analysis.R (the R script that does the merging and transformations)
+
 2.  CodeBook.md (describes the variables, the data, the transformations, and the work that is performed to clean up the data)
+
 3.  Script (run_analysis.R)
 
 Assumptions:
