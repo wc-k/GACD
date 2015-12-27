@@ -1,4 +1,4 @@
-CodeBook for the tidy dataset
+This is the CodeBook for the tidy data
 Data source
 
 This dataset is derived from the "Human Activity Recognition Using Smartphones Data Set" which was originally made avaiable here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -48,8 +48,3 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
     tBodyGyroMean
     tBodyGyroJerkMean
 
-Other estimates have been removed for the purpose of this excercise.
-
-Note: features are normalized and bounded within [-1,1].
-
-The resulting variable names are of the following form: tbodyaccmeanx, which means the mean value of tBodyAcc-XYZ.
