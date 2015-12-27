@@ -12,8 +12,8 @@ You should create one R script called run_analysis.R that does the following.
 
 Files:
 1.	README.md 
-2.	run_analysis.R (the R script that does the merging and transformations)
-3.	CodeBook.md (describes the variables, the data, the transformations, and the work that is performed to clean up the data)
+2.	2.	run_analysis.R (the R script that does the merging and transformations)
+3.	3.	CodeBook.md (describes the variables, the data, the transformations, and the work that is performed to clean up the data)
 Script (run_analysis.R)
 
 Assumptions:
