@@ -32,6 +32,7 @@ The run_analysis.R performs the following steps:
 1.	Check whether the UCI HAR Dataset is available in the working directory. If not, the script checks for the zip file, unzips it, and        continues. If that is also unavailable, the script downloads the zip file, unzips it, and continues.
 
 2.	Merge the training and the test sets to create one data set (requirement #1)
+
     a.	Load the "plyr," "dplyr," and "reshape2" packages as they are necessary for the data manipulation that follows. If they have not           been previously installed, the script installs them.
 
     b.	Read the "Activity Labels" and "Features" data into data frames, labeling the columns and changing the Feature data to character           type.
